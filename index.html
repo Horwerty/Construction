@@ -11,27 +11,38 @@
 <body>
       <header>
             <div class="logo" id="logo">
-                  <h2>CIC<span>LTD</span></h2>
+                  <a href="#hero"><h2>CIC<span>LTD</span></h2></a>
             </div>
             <div class="menuList">
                   <nav>
                         <ul>
-                              <li>HOME</li>
-                              <li>ABOUT</li>
-                              <li>SERVICES</li>
-                              <li>PORTFOLIO</li>
-                              <li>TEAM</li>
-                              <li>CONTACT</li>
+                              <li><a href="#hero" class="activeNav">HOME</a></li>
+                              <li><a href="#about">ABOUT</a></li>
+                              <li><a href="#ServicesGrid">SERVICES</a></li>
+                              <li><a href="#projectGrid">PORTFOLIO</a></li>
+                              <li><a href="#teamSect">TEAM</a></li>
+                              <li><a href="contact">CONTACT</a></li>
                         </ul>
                   </nav>
+                  <div class="menu"><i class="bx bx-menu-alt-right menuIcon"></i></div>
             </div>
       </header>
+      <div class="mobileNav">
+            <ul>
+                  <li><a href="#hero" class="activeNav">HOME</a></li>
+                  <li><a href="#about">ABOUT</a></li>
+                  <li><a href="#ServicesGrid">SERVICES</a></li>
+                  <li><a href="#projectGrid">PORTFOLIO</a></li>
+                  <li><a href="#teamSect">TEAM</a></li>
+                  <li><a href="contact">CONTACT</a></li>
+            </ul>
+      </div>
       <main>
-            <section class="hero">
+            <section id="hero">
                   <div id="heroText">
                         <h4>TRUE CONSTRUCTION</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et temporibus dicta optio assumenda neque laudantium, nostrum, maiores itaque iure sapiente, provident eos obcaecati dolor libero laboriosam? Cum a neque assumenda.</p>
-                        <button>CONTACT US</button>
+                        <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et temporibus dicta optio assumenda neque laudantium, nostrum, maiores itaque iure sapiente, provident eos obcaecati dolor libero laboriosam? Cum a neque assumenda.</b></p>
+                        <button><a href="#contact">CONTACT US</a></button>
                   </div>
                   <div id="backgroundSlide">
                         <span class="dash1"></span>
@@ -40,110 +51,140 @@
                   </div>
                   <div id="heroCover"></div>
             </section>
-            <section>
-                 <div>
-                       <img src="" alt="high-Tower">
+            <section id="about">
+                 <div class="aboutimage">
+                       <img src="https://media.gettyimages.com/photos/experienced-engineer-explaining-the-problems-in-construction-works-picture-id1267010934?k=20&m=1267010934&s=612x612&w=0&h=orOoQ1keF4d0axah0pr5HENABscij3Nxg-PKUV_7YK0=" alt="high-Tower">
                  </div>
-                 <div>
+                 <div class="aboutText">
                        <h5>We Provide Best Quality Services ever</h5>
                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci magnam laboriosam velit repellendus laborum earum a illum minima minus quisquam, est sit corporis provident incidunt beatae, magni, alias molestiae optio.</p>
-                       <button>CONTACT US</button>
+                       <button><a href="#contact">CONTACT US</a></button>
                  </div> 
             </section>
             <section id="ServicesGrid">
                   <h4>Our Services</h4>
                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Haperiam id, assumenda sit magnam placeat mollitia tempora facilis dolores?</p>
-                  <div class="bestGrid">
-                        <h5>Best Quality</h5>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Haperiam id, assumenda sit magnam placeat mollitia tempora facilis dolores?</p>
-                        <button>VIEW</button>
+                  <div class="ServeGrid">
+                        <div class="SG1">
+                              <div class="bestIcon"><i class="bx bx-book-content"></i></div>
+                              <h5>Best Quality</h5>
+                              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Haperiam id, assumenda sit magnam placeat mollitia tempora facilis dolores?</p>
+                              <button>VIEW</button>
+                        </div>
+                        <div class="SG2">
+                              <div class="bestIcon"><i class="bx bx-health"></i></div>
+                              <h5>Sustainability</h5>
+                              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Haperiam id, assumenda sit magnam placeat mollitia tempora facilis dolores?</p>
+                              <button>VIEW</button>
+                        </div>
+                        <div class="SG3">
+                              <div class="bestIcon"><i class="bx bx-globe"></i></div>
+                              <h5>Integrity</h5>
+                              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Haperiam id, assumenda sit magnam placeat mollitia tempora facilis dolores?</p>
+                              <button>VIEW</button>
+                        </div>
                   </div>
-                  <div class="sustainGrid">
-                        <h5>Sustainability</h5>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Haperiam id, assumenda sit magnam placeat mollitia tempora facilis dolores?</p>
-                        <button>VIEW</button>
-                  </div>
-                  <div class="IntegrityGrid">
-                        <h5>Integrity</h5>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Haperiam id, assumenda sit magnam placeat mollitia tempora facilis dolores?</p>
-                        <button>VIEW</button>
-                  </div>
+                  
             </section>
             <section id="projectGrid">
                  <h4>Our Portfolio</h4>
                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Haperiam id, assumenda sit magnam placeat mollitia tempora facilis dolores?</p> 
-                  <div class="project1">
-                        <img src="" alt="mansion">
-                        <h4>Project Title</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sint iure ad consectetur! Quis quibusdam voluptates sed distinctio recusandae, atque architecto ut perspiciatis rem necessitatibus asperiores, illum magnam quidem id!</p>
-                        <button>EXPLORE</button>
-                  </div>
-                  <div class="project2">
-                        <img src="" alt="mansion">
-                        <h4>Project Title</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sint iure ad consectetur! Quis quibusdam voluptates sed distinctio recusandae, atque architecto ut perspiciatis rem necessitatibus asperiores, illum magnam quidem id!</p>
-                        <button>EXPLORE</button>
-                  </div>
-                  <div class="project3">
-                        <img src="" alt="mansion">
-                        <h4>Project Title</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sint iure ad consectetur! Quis quibusdam voluptates sed distinctio recusandae, atque architecto ut perspiciatis rem necessitatibus asperiores, illum magnam quidem id!</p>
-                        <button>EXPLORE</button>
+                  <div class="projGrid">
+                        <div class="project">
+                              <div class="projectImage">
+                                    <img src="https://media.gettyimages.com/photos/upper-class-modern-house-picture-id1170286036?k=20&m=1170286036&s=612x612&w=0&h=6jcjjCfU1GqpqrpYSI4AY0q7aJmiNKq4IF9P1yA4Ghs=" alt="mansion">
+                              </div>
+                              <div class="projectText">
+                                    <h4>Project Title</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sint iure ad consectetur! Quis quibusdam voluptates sed distinctio recusandae, atque architecto ut perspiciatis rem necessitatibus asperiores, illum magnam quidem id!</p>
+                                    <button>EXPLORE</button>
+                              </div>
+                        </div>
+                        <div class="project">
+                              <div class="projectImage">
+                                    <img src="https://media.gettyimages.com/photos/mansion-at-night-surrounded-by-gardens-in-florida-picture-id689494599?k=20&m=689494599&s=612x612&w=0&h=K4jFYPtZXtx_m6pGJgrvL7RC_buiKbEvFC8KGxzX2i0=" alt="mansion">
+                              </div>
+                              <div class="projectText">
+                                    <h4>Project Title</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sint iure ad consectetur! Quis quibusdam voluptates sed distinctio recusandae, atque architecto ut perspiciatis rem necessitatibus asperiores, illum magnam quidem id!</p>
+                                    <button>EXPLORE</button>
+                              </div>
+                        </div>
+                        <div class="project">
+                              <div class="projectImage">
+                                    <img src="https://media.gettyimages.com/photos/modern-luxury-house-with-swimming-pool-picture-id960768668?k=20&m=960768668&s=612x612&w=0&h=OuUm3EiP9_q6Yso8tNnoBTR7G1dWcG7z97qtdMPinyM=" alt="mansion">
+                              </div>
+                              <div class="projectText">
+                                    <h4>Project Title</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sint iure ad consectetur! Quis quibusdam voluptates sed distinctio recusandae, atque architecto ut perspiciatis rem necessitatibus asperiores, illum magnam quidem id!</p>
+                                    <button>EXPLORE</button>   
+                              </div>
+                        </div>
                   </div>
             </section>
             <section id="teamSect">
                   <h4>Our Team</h4>
                   <p>lorem ipsum edeui tyru saewr deut ujioli chsrte fhtygu, adiopole sert.</p>
-                  <div class="team">
-                        <div class="teamImage">
-                              <img src="" alt="image1">
+                  <div class="teamGrid">
+                        <div class="team">
+                              <div class="teamImage">
+                                    <img src="https://media.gettyimages.com/photos/smiling-man-outdoors-in-the-city-picture-id1179420343?k=20&m=1179420343&s=612x612&w=0&h=G2UGMVSzAXGAQs3pFZpvWlHNRAzwPIWIVtSOxZHsEuc=" alt="image1">
+                              </div>
+                              <div class="teamText">
+                                    <h5>John Wick</h5>
+                                    <p>lorem ipsum edeui tyru saewr deut ujioli chsrte fhtygu, adiopole sert.</p>
+                                <div class="teamIcons">
+                                    <i class="bx bxl-facebook"></i>
+                                    <i class="bx bxl-twitter"></i>
+                                    <i class="bx bxl-linkedin"></i>
+                                    <i class="bx bxl-instagram"></i>
+                                </div>
+                              </div>
                         </div>
-                        <h5>John Wick</h5>
-                        <p>lorem ipsum edeui tyru saewr deut ujioli chsrte fhtygu, adiopole sert.</p>
-                        <div class="teamIcons">
-                              <i class="bx bxl-facebook"></i>
-                              <i class="bx bxl-twitter"></i>
-                              <i class="bx bxl-linkedin"></i>
-                              <i class="bx bxl-instagram"></i>
+                        <div class="team">
+                              <div class="teamImage">
+                                    <img src="https://media.gettyimages.com/photos/university-student-portrait-in-campus-picture-id1249078123?k=20&m=1249078123&s=612x612&w=0&h=akINFlXeJ-yywSiLxmW6qlu-9ijfqjg_57AvDUi_na8=" alt="image2">
+                              </div>
+                              <div class="teamText">
+                                    <h5>Clara Greene</h5>
+                                    <p>lorem ipsum edeui tyru saewr deut ujioli chsrte fhtygu, adiopole sert.</p>
+                                <div class="teamIcons">
+                                    <i class="bx bxl-facebook"></i>
+                                    <i class="bx bxl-twitter"></i>
+                                    <i class="bx bxl-linkedin"></i>
+                                    <i class="bx bxl-instagram"></i>
+                                </div>
+                              </div>
                         </div>
-                  </div>
-                  <div class="team">
-                        <div class="teamImage">
-                              <img src="" alt="image2">
+                        <div class="team">
+                              <div class="teamImage">
+                                    <img src="https://media.gettyimages.com/photos/happy-student-in-class-picture-id539246041?k=20&m=539246041&s=612x612&w=0&h=zKwWIPBZyE6GyYq7Qfyw4bKvE2lKF8AMBtreqyNhj2A=" alt="image3">
+                              </div>
+                              <div class="teamText">
+                                    <h5>Ken Browel</h5>
+                                    <p>lorem ipsum edeui tyru saewr deut ujioli chsrte fhtygu, adiopole sert.</p>
+                                <div class="teamIcons">
+                                    <i class="bx bxl-facebook"></i>
+                                    <i class="bx bxl-twitter"></i>
+                                    <i class="bx bxl-linkedin"></i>
+                                    <i class="bx bxl-instagram"></i>
+                                </div>
+                              </div>
                         </div>
-                        <h5>Clara Greene</h5>
-                        <p>lorem ipsum edeui tyru saewr deut ujioli chsrte fhtygu, adiopole sert.</p>
-                        <div class="teamIcons">
-                              <i class="bx bxl-facebook"></i>
-                              <i class="bx bxl-twitter"></i>
-                              <i class="bx bxl-linkedin"></i>
-                              <i class="bx bxl-instagram"></i>
-                        </div>
-                  </div>
-                  <div class="team">
-                        <div class="teamImage">
-                              <img src="" alt="image3">
-                        </div>
-                        <h5>Ken Browel</h5>
-                        <p>lorem ipsum edeui tyru saewr deut ujioli chsrte fhtygu, adiopole sert.</p>
-                        <div class="teamIcons">
-                              <i class="bx bxl-facebook"></i>
-                              <i class="bx bxl-twitter"></i>
-                              <i class="bx bxl-linkedin"></i>
-                              <i class="bx bxl-instagram"></i>
-                        </div>
-                  </div>
-                  <div class="team">
-                        <div class="teamImage">
-                              <img src="" alt="image4">
-                        </div>
-                        <h5>James Bond</h5>
-                        <p>lorem ipsum edeui tyru saewr deut ujioli chsrte fhtygu, adiopole sert.</p>
-                        <div class="teamIcons">
-                              <i class="bx bxl-facebook"></i>
-                              <i class="bx bxl-twitter"></i>
-                              <i class="bx bxl-linkedin"></i>
-                              <i class="bx bxl-instagram"></i>
+                        <div class="team">
+                              <div class="teamImage">
+                                    <img src="https://media.gettyimages.com/photos/headshot-of-a-teenage-boy-picture-id1158014305?k=20&m=1158014305&s=612x612&w=0&h=RgcRlPfHFZA4OWSROC46FgBILIQVyiS6o_EmyZAMt4M=" alt="image4">
+                              </div>
+                              <div class="teamText">
+                                    <h5>James Bond</h5>
+                                    <p>lorem ipsum edeui tyru saewr deut ujioli chsrte fhtygu, adiopole sert.</p>
+                                <div class="teamIcons">
+                                    <i class="bx bxl-facebook"></i>
+                                    <i class="bx bxl-twitter"></i>
+                                    <i class="bx bxl-linkedin"></i>
+                                    <i class="bx bxl-instagram"></i>
+                                </div>
+                              </div>
                         </div>
                   </div>
             </section>
@@ -152,14 +193,22 @@
                   <p>lorem ipsum edeui tyru saewr deut ujioli chsrte fhtygu, adiopole sert.</p>
                   <div class="contactContent">
                         <div class="contactmap">
-                              <iframe src="" 
-                              frameborder="0"></iframe>
+                              <iframe src="https://www.google.com.ng/maps/@9.0570752,7.4481664,12z?hl=en" 
+                                    frameborder="0"
+                                    width="100%"
+                                    height="100%"
+                                    style="border: 0"
+                                    allowfullscreen=""
+                              ></iframe>
                         </div>
                         <div class="contactForm">
-                              <input type="text" placeholder="Enter Your Name">
-                              <input type="text" placeholder="Enter Your Email">
-                              <textarea name="Message" id="" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
-                              <button>SUBMIT FORM</button>
+                              <form>
+                                    <input type="text" placeholder="Enter Your Name">
+                                    <input type="text" placeholder="Enter Your Email">
+                                    <textarea name="Message" id="" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+                                    <button>SUBMIT FORM</button>
+                              </form>
+                              
                         </div>
                   </div>
             </section>
@@ -168,4 +217,5 @@
            <h6>Copyright 2022, Designed by Horwerty</h6>
       </footer>
 </body>
+<script src="script.js"></script>
 </html>
