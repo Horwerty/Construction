@@ -1,0 +1,25 @@
+
+* {
+      margin: 5px;
+}
+
+header {
+      background-color: red;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 5rem;
+      width: 100%;
+}
+
+nav> ul {
+      list-style: none;
+}
+
+li {
+      display: inline;
+}
+
+span {
+      color: aqua;
+}
